@@ -1,0 +1,39 @@
+pwd           # Show current working directory
+ls            # List files and directories
+ls -l         # List with details (permissions, size, etc.)
+ls -a         # Show hidden files
+cd <dir>      # Change directory
+cd ..         # Move up one level
+mkdir <dir>   # Create a new directory
+rm <file>     # Delete a file
+rm -r <dir>   # Delete a directory and its contents
+cp <src> <dst> # Copy a file or directory
+mv <src> <dst> # Move or rename a file
+touch <file>  # Create a new empty file
+clear         # Clear the terminal screen
+history       # Show command history
+whoami        # Show the current user
+id            # Show user ID (UID) and group ID (GID)
+date          # Show current date and time
+cal           # Show the calendar
+
+
+
+git init                      # Initialize a new Git repository
+git clone <repo_url>          # Clone a repository
+git status                    # Check the status of changes
+git add <file>                # Add a file to staging
+git add .                     # Add all files to staging
+git commit -m "Message"       # Commit changes with a message
+git push origin <branch>      # Push changes to a remote repo
+git pull origin <branch>      # Pull latest changes from a remote repo
+git log                       # View commit history
+git branch                    # List all branches
+git checkout <branch>         # Switch to a different branch
+git checkout -b <branch>      # Create a new branch and switch to it
+git merge <branch>            # Merge a branch into the current branch
+git remote -v                 # Show remote repository URLs
+git reset --hard <commit>     # Reset to a specific commit
+git stash                     # Stash changes temporarily
+git stash pop                 # Apply stashed changes
+
